@@ -1,0 +1,321 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+*{
+    margin: 0;
+}
+
+
+body{
+   background-color: rgb(124, 69, 141);
+    font-family: 'Noto Serif', serif;
+}
+h1 {
+    font-family: 'Zen Antique', serif;
+    color: rgb(205, 17, 59); 
+}
+h2{
+    font-family: 'Zen Antique', serif;
+    color: rgb(255, 118, 0);
+}
+h3{
+    font-family: 'Zen Antique', serif;
+    color: rgb(255, 169, 0);
+}
+p{
+    color: rgb(255, 184, 48);
+}
+footer{
+    color: rgb(254, 249, 239);
+}
+ul{
+    color: rgb(255, 184, 48)
+}
+
+/*.contenedor{
+    display: flex;
+    flex-direction: column; 
+}  
+ header {
+    text-align: center;
+} 
+
+holaa aqui lo de div de contenedor
+6 <div class="cancion">
+*/
+
+header {
+    text-align: center;
+}  
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto; 
+}   
+
+.site-header{
+    padding: 20px 20px 20px 0px;
+    text-align: center;
+} 
+
+
+.barra{
+    background-color: rgb(159, 100, 177);
+}  
+
+.navegacion-principal a{
+    color: rgb(255, 118, 0);
+    text-decoration: none; 
+    font-size: 20px;
+    padding: 15px;
+    padding-right: 70px;
+    display: inline-block
+} 
+
+.navegacion-principal a:hover {
+    background-color:  rgb(216, 93, 97);
+    transition: .8s;
+} 
+
+@media(max-width:768px){
+
+    .navegacion-principal a{
+        display: block;
+        padding: 20px;
+        text-align: center; 
+    }
+
+
+}
+
+
+
+.content ul {
+    list-style: none;
+    padding: 0;
+
+}   
+.content li {
+    padding: 12px; 
+}      
+.a { 
+    color: rgb(255, 169, 0);
+    padding: 10px;
+    padding-right: 20px;
+    font-size: 15px;
+    display: inline-block; 
+    text-decoration: none;
+
+} 
+a:link { 
+    color: rgb(255, 169, 0);
+    text-decoration: none;
+}    
+a:visited { 
+    color: rgb(255, 169, 0);
+    text-decoration: none;
+}    
+a:hover { 
+    color: rgb(205, 17, 59);
+  text-decoration: none;
+}   
+a:active{ 
+    color: rgb(223, 151, 166);
+    text-decoration: none;
+}  
+
+.contenedor-4 {
+    width: 70%;
+    float: left;
+    padding-right: 20px;
+}
+
+.grupo-integrantes { 
+     flex-direction: row;
+     justify-content: space-around;
+     margin-bottom: 70px;
+
+}   
+.grupo-integrantes h2{
+    color: rgb(255, 118, 0);
+    padding: 20px 0px 20px;
+}    
+.grupo-integrantes img {
+    margin-right: 70px;
+}    
+.grupo-integrantes ul{
+    padding: 50px;
+}     
+.grupo-integrantes li{
+    font-size: 17px; 
+}      
+.imagenes-queen {
+    float: left;
+    width: 400px;
+    height: 300px;
+    margin-right: 20px;
+    max-width: 100%;
+    display: inline; 
+}
+
+.carrd{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    margin-right: 20px;
+}    
+.contenedor-8{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    color:rgb(255, 184, 48);
+    clear: both;
+}
+
+.contenedor-8 h2{
+    
+    padding-top: 40px;
+}   
+
+.contenedor-8 h3 {
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contenedor-8 p{
+    line-height: 2;
+    font-size: 15px;
+    text-align: justify;
+} 
+
+.contenedor-6 {
+    display: flex;
+    flex: row; 
+    justify-content: space-between; 
+    max-width: 100%;
+}    
+
+.cancion {
+    
+    clear: both;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.cancion h3 {
+    Margin-bottom: 20px;
+    text-align: center;
+}     
+  
+
+
+.boton{
+    margin-top: 10px;
+    background-color: rgb(187, 128, 130);
+    padding: 10px 50px;
+    display: inline-block;
+    color:rgb(243, 145, 137) ;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.boton:hover{
+    background-color: rgb(216, 93, 97);
+    transition: 0.5s;
+}
+.sidebar{
+    width: 30%;
+    float: left;
+    margin-top: 60px;
+}
+.siderbar h2 {
+    color: rgb(255, 169, 0);
+    margin-bottom: 30px;
+}   
+.sidebar img {
+    display: inline-block;
+    padding-top: 40px; 
+    
+}   
+   
+.imagen-break{
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    padding-left: 20px;
+
+
+}   
+footer {
+    background-color: rgb(202, 107, 110);
+}    
+.footer-content {
+    clear: both; 
+    background-color: rgb(202, 107, 110);
+    padding-top: 40px;
+    height: 300px; 
+    margin-top: 20px;
+    color: rgb(4, 101, 130);
+    
+
+}       
+.footer-content h2 {
+    color: rgb(255, 118, 0);
+    margin-bottom: 20px; 
+
+} 
+.footer-content p {
+    font-size: 15px;
+}     
+.footer-content a {
+    color: rgb(255, 169, 0);
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 15px;
+}  
+
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.dont p  { 
+    font-size: 15px;
+}  
+
+
+.footer-content .dont{
+        width: 40%
+}
+
+
+.footer-content .artist {
+    text-align: right;
+    font-size: 15px;
+    
+}    
+.banda {
+    background-color: rgb(110, 117, 130);
+    /*margin-top: 30px; */
+    margin-bottom: 20px; 
+    
+    /*padding-bottom: 10px; */
+    text-align: center; 
+    color: rgb(243, 145, 137);
+    text-decoration: none;
+    font-size: 15px;
+} 
+
+/*.banda{
+    background-color: rgb(110, 117, 130);
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding:10px;
+    text-align: center;
+    font-size: 15px;
+}*/

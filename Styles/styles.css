@@ -1,0 +1,39 @@
+p {
+ 
+        color: rgb(255, 243, 178)
+}    
+
+body {
+      /* background-attachment: local; */
+      background-color:rgb(241, 146, 141);
+      /*background-image: url(/img/logo.png);
+      background-size: cover; 
+      background-repeat: no-repeat; 
+      background-position: center; */
+      font-family: 'Andada Pro', serif;
+     
+ } 
+
+h2 {
+    color: rgb(65, 88, 75);
+    }   
+
+h1 {
+    color: rgb(65, 88, 75);
+}
+ol {
+   color: rgb(255, 224, 216);
+}  
+ul {
+    color: rgb(255, 224, 216);
+}  
+.Titulo{
+    font-family: 'Noto Sans Mono', monospace;
+}
+/* .Integrantes-cajita {
+    background-color: rgb(255, 191, 134) ;
+}  */
+ .fas {
+    font-size: 50px;
+    color: rgb(165, 175, 184);
+} 
